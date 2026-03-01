@@ -1,0 +1,81 @@
+[
+{
+    "name": "iPhone 13",
+    "price": 65000,
+    "description": "Apple smartphone",
+    "ratings": 4.5,
+    "images": [
+        { "image": "iphone.jpg" }
+    ],
+    "category": "mobile Phones",
+    "seller": "Apple Store",
+    "stock": 10,
+    "numOfReviews": 0,
+    "reviews": [],
+    "createdAt": "2026-02-28T10:00:00.000Z"
+},
+
+{
+    "name": "Dell Inspiron Laptop",
+    "price": 55000,
+    "description": "Dell i5 11th gen laptop",
+    "ratings": 4.2,
+    "images": [
+        { "image": "dell.jpg" }
+    ],
+    "category": "Laptops",
+    "seller": "Dell",
+    "stock": 5,
+    "numOfReviews": 0,
+    "reviews": [],
+    "createdAt": "2026-02-28T10:00:00.000Z"
+},
+
+{
+    "name": "Sony Headphones",
+    "price": 3000,
+    "description": "Wireless headphone",
+    "ratings": 4.0,
+    "images": [
+        { "image": "sony.jpg" }
+    ],
+    "category": "Headphones",
+    "seller": "Sony",
+    "stock": 15,
+    "numOfReviews": 0,
+    "reviews": [],
+    "createdAt": "2026-02-28T10:00:00.000Z"
+},
+
+{
+    "name": "Nike Sports Shoes",
+    "price": 2500,
+    "description": "Running shoes",
+    "ratings": 4.3,
+    "images": [
+        { "image": "shoes.jpg" }
+    ],
+    "category": "Sports",
+    "seller": "Nike",
+    "stock": 20,
+    "numOfReviews": 0,
+    "reviews": [],
+    "createdAt": "2026-02-28T10:00:00.000Z"
+},
+
+{
+    "name": "Cotton T-Shirt",
+    "price": 500,
+    "description": "Comfort cotton t-shirt",
+    "ratings": 4.1,
+    "images": [
+        { "image": "tshirt.jpg" }
+    ],
+    "category": "Clothes/Shoes",
+    "seller": "Puma",
+    "stock": 30,
+    "numOfReviews": 0,
+    "reviews": [],
+    "createdAt": "2026-02-28T10:00:00.000Z"
+}
+]
