@@ -14,11 +14,16 @@ module.exports = (err, req, res, next) => {
     }
     if(process.NODE_ENV == 'production'){
         let message = err.message;
-        let error={...err};
+        let error=new Error(message);
 
         if(err.name == "ValidationError"){
             message = Object.values(err.errors).map(value => value.message)
             error = new Error(message)
+        }
+
+        if(err.name == 'castError'){
+            message = `Resource not found: ${err.path}`
+            error = new Error(message);
         }
 
         res.status(err.statusCode).json({
